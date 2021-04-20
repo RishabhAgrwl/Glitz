@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.AppCompat.Light.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishabh.glitz.EventExpandedDetails">
+
+    <!--
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/ExpandedHeadingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textSize="27sp"
+            android:visibility="gone"
+            tools:text="Heatz" />
+
+        <LinearLayout
+            android:id="@+id/venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ExpandedVenueTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ExpandedHeadingTV"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:padding="2dp"
+                android:textColor="@color/colorDarkGrayText"
+                android:textSize="25sp"
+                tools:text="Audi 3" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="20dp"
+                android:paddingStart="5dp"
+                android:src="@drawable/ic_directions_black_24dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ExpandedTimeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/venue"
+            android:padding="2dp"
+            android:paddingEnd="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textSize="14sp"
+            tools:text="1.45 PM &#8211; 2.45 PM" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ExpandedTimeTV"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="35dp">
+
+            <RelativeLayout
+                android:id="@+id/ScrollingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ExpandedDescrptionTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                    android:textSize="16sp"
+                    tools:text="It is a Debate Event.\n\n1.The participants will come in groups of two.\n\n2.One member will choose to speak for the motion and the other against the motion.\n\n4.Each participant will be given 2 minutes to express their views.\n\n5.Further 60 seconds will be given to the group for the question, answer and counter question round.\n\n6.The winners will be screened to the finale LEGAL EAGLE" />
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ExpandedDescrptionTV"
+                    android:layout_marginTop="20dp"
+
+                    >
+
+
+                    <LinearLayout
+                        android:id="@+id/Contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/Person1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="1dp">
+
+                            <TextView
+                                android:id="@+id/ExpandedEventCorrdinator1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                android:textColor="@color/colorDarkGrayText"
+                                tools:text="Ishan Gaba" />
+
+                            <TextView
+                                android:id="@+id/ExpandedEventNumber1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:elegantTextHeight="true"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                tools:text="9849768492" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000" />
+
+                        <LinearLayout
+                            android:id="@+id/Person2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="1dp">
+
+                            <TextView
+                                android:id="@+id/ExpandedEventCorrdinator2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_below="@id/ExpandedEventCorrdinator1"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                android:textColor="@color/colorDarkGrayText"
+
+                                tools:text="Umang Upadhyay" />
+
+                            <TextView
+                                android:id="@+id/ExpandedEventNumber2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_below="@id/ExpandedEventCorrdinator1"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                tools:text="9987935876" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/callButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/Contact"
+                        android:background="@drawable/call_button_xml"
+                        android:padding="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_call_black_18dp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

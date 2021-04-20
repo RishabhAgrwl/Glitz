@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/EventHeadingDialogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Heatz"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:id="@+id/EventDetailsDialogTextView"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EventHeadingDialogTextView"
+        tools:text="@string/Heatz_Info"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        />
+
+    <Button
+        android:id="@+id/CallButtonDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        tools:text="98989801568"
+        android:layout_below="@id/EventDetailsDialogTextView"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

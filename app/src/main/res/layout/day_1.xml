@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Day1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="DAY 1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <ListView
+            android:id="@+id/listviewday1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:divider="@color/cardview_dark_background"
+            android:dividerHeight="1sp"
+            android:padding="5dp" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

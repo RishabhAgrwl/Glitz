@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">Glitz</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="headCoordinatorName1">Ishan Gaba</string>
+    <string name="headCoordinatorNumber1">9457359058</string>
+
+    <string name="headCoordinatorName2">Umang Upadhyay</string>
+    <string name="headCoordinatorNumber2">8439249117</string>
+
+    <string name="mapaudi">https://goo.gl/maps/8dcvGka9Gnx</string>
+    <string name="mapcanteen">https://goo.gl/maps/gw5iKYwk5RA2</string>
+
+    <!--DAY 1-->
+
+    <string-array name="EventNamesDay1">
+        <item>Opening Ceremony</item>
+        <item>Heatz</item>
+        <item>Crucigrama</item>
+        <item>Literathon</item>
+        <item>Group Discussion</item>
+        <item>JAM</item>
+        <item>Karaoke</item>
+    </string-array>
+
+    <string-array name="EventTimesDay1">
+        <item>10:00 AM &#8211; 10:30 AM</item>
+        <item>10:45 PM &#8211; 2:45 PM</item>
+        <item>11:30 AM &#8211; 1:30 PM</item>
+        <item>12:30 PM &#8211; 4:00 PM</item>
+        <item>1:30 PM &#8211; 4:30 PM</item>
+        <item>2:00 PM &#8211; 4:30 PM</item>
+        <item>6:00 PM &#8211; 8:00 PM</item>
+    </string-array>
+
+    <string-array name="EventVenuesDay1">
+        <item>Audi 3</item>
+        <item>Audi 3</item>
+        <item>Audi 6</item>
+        <item>Audi 5</item>
+        <item>Audi 4</item>
+        <item>Audi 6</item>
+        <item>Canteen Ground</item>
+    </string-array>
+
+    <string-array name="EventDetailsDay1">
+        <!--Opening Ceremony-->
+        <item>The commencement of a thrilling two days magic cornucopia.\nThe key highlights of this event will include lighting of lamps, the welcome speech and lot more surprising festivities.</item>
+
+        <!--Heatz-->
+        <item>It is a Debate Event.\n1. The participants will come in groups of two.\n2. One member will choose to speak for the motion and the other against the motion.\n3. Each participant will be given 2 minutes to express their views.\n4. Further 60 seconds will be given to the group for the question, answer and counter question round.\n5. The winners will be screened to the finale LEGAL EAGLE\n\nTOPIC: \"Forced theism and blind faith have created a complete sense of domination in the minds of people.\"</item>
+
+        <!--Crucigrama-->
+        <item>1. The participants will be given to extract words from the crossword puzzle based upon the themes displayed.\n2. 20 minutes will be alloted to fetch the words.\n3. 45 minutes will be given to knit a yarn, using those words.\n4. Writers of the elected stories will be screened to the finale of this event - BLATTER BUZZ.</item>
+
+        <!--Literathon-->
+        <item>1. It is a team event.\n2. Each team will consist of 4 members.\n3. It comprises four rounds\n\t&#8226;Taciturn\n\t&#8226;RecogerIt\n\t&#8226;Word Addiction\n\t&#8226;Rapid Fire\n\n4. Participants must qualify the first 3 rounds to enter the finale - Rapid Fire </item>
+
+        <!--Group Discussion-->
+        <item>1. Each group will comprise 6 members.\n2. Topics will be given by moderator to each group.\n3. Total time is 10 minutes(which includes 1 minute for preparation and 1 minute for conclusion).\n4. Finalists will proceed to the finale of this round which is Conviction Chamber.\n</item>
+
+        <!--Jam-->
+        <item>1. Each Group will comprise 6 members.\n2. Total time will be 1 minute.\n3. This is an impromptu event and therefore the topic will be provided on the spot.\n4. The language will strictly be english.\n5. Stuttering, stammering, over-dramatisation, unnecessary pauses, hesitation, repetition of ideas, slangs, factual errors, logical errors and grammatical errors are not allowed.\n</item>
+
+        <!--Karaoke-->
+        <item>\"One good thing about music, when it hits you, you feel no pain.\"\n\tBob Marley\n\nMusic is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaeity to life and to everything.</item>
+
+    </string-array>
+
+    <string-array name="EventCoordinatorsNames1Day1">
+        <item>Ishan Gaba</item>
+        <item>Ishan Gaba</item>
+        <item>Durgesh Yadav</item>
+        <item>Dushyant Singh</item>
+        <item>Umang Upadhyay</item>
+        <item>Gautam Mishra</item>
+        <item>Umang Upadhyay</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNames2Day1">
+        <item>Shweta Tiwari</item>
+        <item>Manika Garg</item>
+        <item>Jyotsna Shukla</item>
+        <item>Shweta Tiwari</item>
+        <item>Durgesh Yadav</item>
+        <item>Ananya Srivastava</item>
+        <item>Ishan Gaba</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbers1Day1">
+        <item>9457359058</item>
+        <item>9457359058</item>
+        <item>8853756985</item>
+        <item>9795416694</item>
+        <item>8439249117</item>
+        <item>9454657204</item>
+        <item>8439249117</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbers2Day1">
+        <item>9412330441</item>
+        <item>7500074955</item>
+        <item>9897557932</item>
+        <item>9412330441</item>
+        <item>8853756985</item>
+        <item>9889580933</item>
+        <item>9457359058</item>
+    </string-array>
+
+
+    <!--DAY 2    -->
+
+    <string-array name="EventNamesDay2">
+        <item>Legal Eagle</item>
+        <item>Blatter Buzz</item>
+        <item>Conviction Chamber</item>
+        <item>Curtain\'s Call</item>
+        <item>Animador\'s Coliseum</item>
+        <item>Closing Ceremony</item>
+
+    </string-array>
+
+    <string-array name="EventTimesDay2">
+        <item>10:00 AM &#8211; 1:00 PM</item>
+        <item>11:00 AM &#8211; 1:00 PM</item>
+        <item>12:00 AM &#8211; 3:30 PM</item>
+        <item>1:30 PM &#8211; 4:30 PM</item>
+        <item>2:30 PM &#8211; 4:30 PM</item>
+        <item>4:30 PM &#8211; 5:15 PM</item>
+    </string-array>
+
+    <string-array name="EventVenuesDay2">
+        <item>Audi 6</item>
+        <item>Audi 3</item>
+        <item>Audi 5</item>
+        <item>Audi 4</item>
+        <item>Audi 6</item>
+        <item>Audi 3</item>
+
+    </string-array>
+
+    <string-array name="EventDetailsDay2">
+        <!--Legal Eagle-->
+        <item>Welcome to the Finale of HEATZ\n1. It is a team event.\n2. The team will comprise of two members.\n3. A case will be given and the 2 rivals have to defend their respective bargains.\n4. The total time for each team is 11 minutes, i.e, 4 minute of session, 1minute and 30 seconds strategic timeout, then again a session of 4 minute and 45seconds to conclude.\n5. The team that convinces the jury more, eventually wins.</item>
+
+        <!--Blatter Buzz-->
+        <item>Welcome to the Finale of CRUCIGRAMA\n1. Each team will comprise 6 members.\n2. A topic will be provided to each group.\n3. The participants will have to knit a yarn.\n4. The sentences should be logically connected.\n5. Be aware participants fumbling, grammatical errors, unnecessary pauses, factual errors and logical errors will cost you a life.\n6. Relax, each participant can die twice.</item>
+
+        <!--Conviction Chamber-->
+        <item>Welcome to the Finale of GROUP DISCUSSION.\n1. This is a group event comprising of 6-8 participants.\n2. The Qualifiers will be mailed a list of themes to prepare.\n3. A topic will be displayed related to the themes and the candidates will be assigned roles for discussion.\n4. The candidates will have to stick to their roles.\n5. The total time will be 10 minutes.</item>
+
+        <!--Curtain\'s Call-->
+        <item>1. It is a group event comprising of 6-8 members.\n2. The participants will be provided with 4 themes\n3. The participants will be given 2 choices.\n\t&#8226; ELO-MIME (A group will elocute and a group will enact simultaneously.)\n\t&#8226; THEATRICS\n4. Time limit is 3-8 minutes.\n5. Slangs are not allowed.\n\nThemes are -\n\t1. If The Game of Thrones was directed by Indians.\n\t2. Riots in Kashmir - just a revolt against constitution or effect of brainwashed minds.\n\t3. Female Infanticide - Is there a cure for this disease?\n\t4. Life after college.\n\n*Participants are requested to bring their respective props.</item>
+
+        <!--Animador\'s Coliseum-->
+        <item>1. It is a bilingual team event.\n2. Each team will comprise of 2 participants.\n3. The participants will be asked to choose a language out of the two (Hindi and English).\n4. A wheel will then be spinned and the number that comes will state their task.\n5. The participants will get 30 seconds to think and their performance should be a maximum of 2 minutes.\n</item>
+
+        <!--Closing Ceremony-->
+        <item>This marks the end of Glitz’17.\n\nThe key highlights of this event will include prize distribution, speech of dignitaries and a few surprises.</item>
+
+    </string-array>
+
+
+    <string-array name="EventCoordinatorsNames1Day2">
+        <item>Ishan Gaba</item>
+        <item>Dushyant Singh</item>
+        <item>Umang Upadhyay</item>
+        <item>Gautam Mishra</item>
+        <item>Ishan Gaba</item>
+        <item>Umang Upadhyay</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNames2Day2">
+        <item>Manika Garg</item>
+        <item>Jyotsna Shukla</item>
+        <item>Durgesh Yadav</item>
+        <item>Ananya Srivastava</item>
+        <item>Shweta Tiwari</item>
+        <item>Ananya Srivastava</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbers1Day2">
+        <item>9457359058</item>
+        <item>9795416694</item>
+        <item>8439249117</item>
+        <item>9454657204</item>
+        <item>9457359058</item>
+        <item>8439249117</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbers2Day2">
+        <item>7500074955</item>
+        <item>9897557932</item>
+        <item>8853756985</item>
+        <item>9889580933</item>
+        <item>9412330441</item>
+        <item>9889580933</item>
+    </string-array>
+
+
+    <string name="instructions">&#8226;	The students of an Institute interested in participating in GLITZ-	2017 are required to register on the website-	www.glitz.splashthat.com\n
+&#8226;	Online registration will close on 15th September at 10:00 AM.\n\n
+Note: The students who do not register on the website will not be entertained.\n\n
+&#8226;	Each participants is required to bring:\n
+\t&#8211; Their ticket number (which had been sent to their emails).\n
+\t&#8211; Two passport size photograph.\n
+\t&#8211; College ID.\n\n
+&#8226;	The confirmation of registration will start on 16th, September 9:00 AM. Each participant will be given an ID card of GLITZ-2017 after confirmation of the registration.\n
+&#8226;	Registration of particular event will be done on spot.\n
+&#8226;	Registration fee is Rs.100 (not for students of MIET and MIT).\n
+&#8226; Accommodation (meals and lodging) will be provided in hostel to the participants with a fee of Rs.100 per participant.\n
+&#8226; For students of MIET and MIT, registration fees is Rs.50\n
+&#8226; Every participant will be provided with a certificate and an ID card of GLITZ\'17.\n
+&#8226;	Accommodation will be provided in hostel rooms. Mattresses and etc. will be provided at the time of registration.\n
+&#8226;	Authorization letter from institutes permitting their students to participate in GLITZ-2017 is required.\n
+&#8226;	Without authorization letter entry will not be permitted inside the campus.\n
+&#8226;	All the participants are required to confirm their registration immediately on arriving at the registration counter.\n\n
+Miscellaneous:\n
+&#8226;	Registration of each event will be done on spot and on first come first serve basis.\n
+&#8226;	Any kind of indiscipline will result in disqualification of the participant.\n
+&#8226;	The participants are required to abide by the rules and regulations.\n
+&#8226;	Decisions of the judges will be last and final.\n
+&#8226;	Participants should reach the venue on time.\n
+&#8226;	Registration fee is not refundable under any circumstances.\n</string>
+
+    <string name="about">Meerut Institute of Engineering and Technology, affiliated to AKTU (formerly known as UPTU) has been a pioneer educational institute for over 20 years.
+It holds pride in being the institute having educated students who have achieved excellence in the fields of academics and organisation.
+We believe our sincerity, dedication and focus towards our goal have been instrumental in our accomplishments.\n\nGLITZ, the official literary fest of MIET is a brand in itself. It has grown into Meerut’s most anticipated moment and one of the largest fest in U.P.
+What sets GLITZ apart from the other fests is the devotion of the students working for it and the intense desire to deliver the maximum.
+The support of the college management plays a crucial role in making the fest, the success we know it every year. It instigates the feeling of happiness and charisma, which is sufficient to satiate the year long wait for this grand fest.
+Starting with the exhilarating Heatz followed by the scintillating performances in the radiance of Karaoke night, mesmerized with the stimulating execution in the Curtain’s Call and lot more to grasp jumbled with fun and entertainment is just a fraction of GLITZ.
+The competitions in GLITZ have gained a lot of atiraction due to the exciting cash prizes and the platiorm it provides to the youngsters.
+The winners get highly motivated which propels them to excel in their fields. Being a youth extravaganza, GLITZ targets the enrichment of the minds of the youth by providing them with countless opportunities to deliver deeper inside oneself and to unlock their deep seated potentials.
+\nLooking forward to your association with GLITZ\n\n
+</string>
+
+    <string name="title_activity_instructions">Instructions</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!--<string name="Heatz_Info">It is a Debate Event.\n-->
+    <!--1.The participants will come in groups-->
+    <!--of two.\n-->
+    <!--2.One member will choose to speak for the motion and-->
+    <!--the other against the motion.\n-->
+    <!--4.Each participant will be given 2 minutes to-->
+    <!--express their views.\n-->
+    <!--5.Further 60 seconds will be given to the group-->
+    <!--for the question, answer and counter question round.\n-->
+    <!--6.The winners will be screened to the finale LEGAL-->
+    <!--EAGLE</string>-->
+
+
+</resources>

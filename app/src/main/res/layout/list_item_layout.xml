@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/EventHeadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingStart="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:text="Event Name" />╥
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="25dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_access_time_black_48px"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/TimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/EventHeadingTextView"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="2dp"
+                tools:text="1.45 - 2.45 PM" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/VenueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:padding="2dp"
+        android:paddingEnd="25dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorDarkGrayText"
+        android:textSize="15sp"
+        tools:text="AUDI 3" />
+</LinearLayout>
+
+
+    <!--
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            tools:text="abcdeffg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>-->

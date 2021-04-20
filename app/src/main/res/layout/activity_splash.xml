@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishabh.glitz.SplashActivity"
+    android:background="#f5f5f5"
+    style="@style/SplashScreenStyle">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_logo_dropshadow"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="80dp"
+        android:layout_margin="70dp"
+        />
+
+    <TextView
+        android:id="@+id/glitzheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="glitz"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display2"
+        android:gravity="center"
+        android:textColor="#616161"
+        android:textStyle="bold"
+        android:elegantTextHeight="true"
+
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/glitztagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gathering of literary zealots"
+        android:layout_below="@id/glitzheading"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:gravity="center"
+        android:textColor="#616161"
+        android:fontFamily="sans-serif-condensed"
+        android:elegantTextHeight="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
